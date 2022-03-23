@@ -14,20 +14,12 @@
     "vue-router": "^4.0.3"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-typescript": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "@vue/eslint-config-standard": "^6.1.0",
-    "@vue/eslint-config-typescript": "^9.1.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-vue": "^8.0.3",
-    "typescript": "~4.5.5"
+    "@vue/cli-service": "^5.0.3",
+    "typescript": "~4.5.5",
+    "webpack-env": "^0.8.0"
   },
   "eslintConfig": {
     "root": true,
@@ -35,8 +27,6 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/vue3-essential",
-      "@vue/standard",
       "@vue/typescript/recommended"
     ],
     "parserOptions": {

@@ -4,6 +4,8 @@ from flask_socketio import SocketIO, Namespace, emit, join_room, leave_room, \
     close_room, rooms, disconnect
 
 server_application = Flask(__name__)
+server_application.config['SECRET_KEY'] = 'the random string'    
+
 server_socketio_connection = SocketIO(server_application)
 
 thread = None
