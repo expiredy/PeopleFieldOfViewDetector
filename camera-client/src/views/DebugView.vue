@@ -1,7 +1,5 @@
 <template>
-  <div class="home">
-
-  </div>
+    
 </template>
 
 <script lang="ts">
@@ -11,5 +9,5 @@ import { Options, Vue } from 'vue-class-component';
   components: {
   }
 })
-export default class HomeView extends Vue {}
+export default class DebugView extends Vue {}
 </script>
